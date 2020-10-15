@@ -5,4 +5,3 @@ reversed = string.split(" ").each do |word|
  end
 end
  reversed.join(" ")
-end 
