@@ -1,4 +1,8 @@
 require "pry"
+#collect → Returns a new array with the results of running block once for every element in enum.
+
+# each  Calls block once for each element in self, passing that element as a parameter, converting multiple values from yield to an array.
+
 def reverse_each_word(string)
   #use split to make it into array so we can enumerate
   #assign the array,use reverse, and then join them back
@@ -8,6 +12,3 @@ reversed = string.split(" ").each do |word|
  reversed.join(" ")
 end
 
-#collect → an_enumerator
-#Returns a new array with the results of running block once for every element in enum.
-# each 
